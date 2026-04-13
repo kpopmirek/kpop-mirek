@@ -32,6 +32,7 @@ enableEmoji = true
 [taxonomies]
   tag = "tags"
   category = "categories"
+  author = "authors"
  
 
 [sitemap]
@@ -69,5 +70,3 @@ enableEmoji = true
       type = 'fragments'
       weight = 10
 
-      [disableKinds]
-  disableKinds = ["taxonomy", "taxonomyTerm"]
