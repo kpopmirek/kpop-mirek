@@ -1,5 +1,5 @@
 +++
-title = 'Kontakt'
+title "Kontakt"
 +++
 
 na mého otce, který tyto stránky spravuje
