@@ -8,7 +8,7 @@ showText = true
   description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady. <br>Pokud chceš vidět více z mých tanečních coverů a jiných akcí, mrkni na Instagram."
   layout = "background" # Toto zajistí, že text bude přes ten obrázek
 
-# baseURL = "https://www.kpop.mirek.com/"
+baseURL = "https://kpop-mirek.pages.dev/"
 
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
