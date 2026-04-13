@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title># NEO HWARANG - tanec, soutěže a láska ke K-popu on NEO HWARANG – tanec, soutěže a láska ke K-popu</title>
+    <link>http://192.168.1.102:1313/</link>
+    <description>Recent content in # NEO HWARANG - tanec, soutěže a láska ke K-popu on NEO HWARANG – tanec, soutěže a láska ke K-popu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs</language>
+    <copyright>© 2026 </copyright>
+    <atom:link href="http://192.168.1.102:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Foto</title>
+      <link>http://192.168.1.102:1313/foto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.102:1313/foto/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>http://192.168.1.102:1313/kontakt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.102:1313/kontakt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>O mně</title>
+      <link>http://192.168.1.102:1313/o-mne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.102:1313/o-mne/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Soutěže</title>
+      <link>http://192.168.1.102:1313/souteze/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.102:1313/souteze/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Videa</title>
+      <link>http://192.168.1.102:1313/videa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.102:1313/videa/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
