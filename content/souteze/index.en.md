@@ -1,5 +1,6 @@
 ---
 title: "Contests"
+authors: ["mirek-kucera"]
 ---
 
 ### My Contest Results

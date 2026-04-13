@@ -1,5 +1,6 @@
 ---
 title: "Foto"
+authors: ["mirek-kucera"]
 layout: "gallery"
 lightbox: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "영상"
+authors: ["mirek-kucera"]
 ---
 
 ### 2025 체코 K-pop National Dance Contest

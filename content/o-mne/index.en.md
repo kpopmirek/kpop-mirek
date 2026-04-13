@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+authors: ["mirek-kucera"]
 ---
 
 Hi,
