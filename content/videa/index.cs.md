@@ -1,6 +1,5 @@
 ---
 title: "Videa"
-author: "Mirek Kučera"
 ---
 
 

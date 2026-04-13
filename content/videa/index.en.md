@@ -1,6 +1,5 @@
 ---
 title: "Videos"
-author: "Mirek Kučera"
 ---
 
 ### K-pop National Dance Contest of the Czech Republic 2025

@@ -1,6 +1,5 @@
 ---
 title: "O mně"
-author: "Mirek Kučera"
 ---
 
 Ahoj,

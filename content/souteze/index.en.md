@@ -1,6 +1,5 @@
 ---
 title: "Contests"
-author: "Mirek Kučera"
 ---
 
 ### My Contest Results

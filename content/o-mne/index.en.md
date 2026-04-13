@@ -1,6 +1,5 @@
 ---
 title: "About Me"
-author: "Mirek Kučera"
 ---
 
 Hi,

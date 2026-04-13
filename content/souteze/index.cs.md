@@ -1,6 +1,5 @@
 ---
 title: "Soutěže"
-author: "Mirek Kučera"
 ---
 
 ### Moje soutěžní výsledky
