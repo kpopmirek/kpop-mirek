@@ -1,5 +1,6 @@
 ---
 title: "Photo"
+author: "Mirek Kučera"
 gallery: true
 ---
 

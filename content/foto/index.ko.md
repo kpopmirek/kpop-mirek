@@ -1,5 +1,6 @@
 ---
 title: "사진"
+author: "Mirek Kučera"
 lightbox: true
 ---
 

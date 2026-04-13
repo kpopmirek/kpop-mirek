@@ -1,5 +1,6 @@
 ---
 title: "콘테스트"
+author: "Mirek Kučera"
 ---
 
 ### 나의 콘테스트 결과
