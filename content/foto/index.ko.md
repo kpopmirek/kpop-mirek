@@ -1,6 +1,5 @@
 ---
 title: "사진"
-authors: ["mirek-kucera"]
 lightbox: true
 ---
 

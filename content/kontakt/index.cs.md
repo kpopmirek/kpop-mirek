@@ -1,6 +1,5 @@
 ---
 title: "Kontakt"
-authors: ["mirek-kucera"]
 ---
 
 na mého otce, který tyto stránky spravuje

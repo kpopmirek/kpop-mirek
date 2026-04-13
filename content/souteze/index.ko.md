@@ -1,6 +1,5 @@
 ---
 title: "콘테스트"
-authors: ["mirek-kucera"]
 ---
 
 ### 나의 콘테스트 결과

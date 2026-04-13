@@ -1,6 +1,5 @@
 ---
 title: "Soutěže"
-authors: ["mirek-kucera"]
 ---
 
 ### Moje soutěžní výsledky

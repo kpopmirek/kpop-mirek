@@ -1,6 +1,5 @@
 ---
 title: "Photo"
-authors: ["mirek-kucera"]
 gallery: true
 ---
 
