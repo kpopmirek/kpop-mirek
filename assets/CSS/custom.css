@@ -1,35 +1,39 @@
-/* === SILNÝ POSUN CELOHO BLOKU S TEXTEM A LOGEM DOLŮ === */
-/* Cílíme přímo na hlavní hero kontejner v background layoutu */
+/* === POSUN TEXTU DOLŮ A DOLEVA NA BACKGROUND LAYOUTU === */
 
-section.relative.h-full.w-full > div,
-.flex.flex-col.items-center.justify-end,
-.flex.flex-col.items-center {
-    justify-content: flex-end !important;
-    min-height: 100vh !important;           /* plná výška obrazovky */
-    padding-bottom: 18rem !important;       /* ← hlavní posun dolů (zvětši na 22rem nebo 25rem) */
-    align-items: flex-start !important;
-    padding-left: 8% !important;
-    text-align: left !important;
+#main-content,
+.prose,
+article {
+    margin-top: 12rem !important;        /* hlavní posun dolů – uprav podle potřeby */
+    max-width: 720px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
 }
 
-/* Vnitřní blok s nadpisem, logem a textem – extra tlačení dolů */
-.flex.flex-col.items-center.justify-end > div,
-section.relative > div > div {
-    margin-top: auto !important;
-    padding-top: 10rem !important;          /* ← další posun (uprav 8–15rem) */
+/* Extra posun pro celý hlavní kontejner v background layoutu */
+.relative.flex.flex-col.grow {
+    padding-top: 8rem !important;
+    justify-content: flex-start !important;
 }
 
-/* Logo s květinami a bleskem */
-img[src*="logo"], img[alt*="NEO"], .flex img {
-    margin-bottom: 3rem !important;
+/* Posun textového bloku ještě více dolů */
+section.prose {
+    margin-top: 6rem !important;
 }
 
-/* Nadpis NEO HWARANG */
+/* Nadpis a úvodní text */
 h1 {
-    margin-bottom: 2rem !important;
+    margin-bottom: 1.5rem !important;
 }
 
-/* KURZOR - ponechán na konci */
+/* Logo pod textem */
+img[alt*="NEO"], .logo, .flex img {
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Kurzor (ponechávám) */
 * {
     cursor: url('/images/liska.png') 16 24, auto !important;
 }
