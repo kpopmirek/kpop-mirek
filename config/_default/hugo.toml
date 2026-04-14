@@ -12,8 +12,7 @@ title = "NEO HWARANG"
     article = { showAuthor = false, showAuthorsBadges = false, showAuthorBottom = false }
     customCursor = true
     mainSections = ["o-mne", "souteze", "foto", "video", "kontakt"]
-    [params]
-  customCSS = ["css/custom.css"]
+    customCSS = ["css/custom.css"]
 
 [taxonomies]
     tag = "tags"
