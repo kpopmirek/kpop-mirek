@@ -1,22 +1,41 @@
-baseURL = "https://9e14e5e2.kpop-mirek.pages.dev/"
 theme = "blowfish"
 defaultContentLanguage = "cs"
-title = "NEO HWARANG"
+title = "NEO HWARANG - tanec, soutěže a láska ke K-popu"
+description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady."
 
+baseURL = "https://0a2ce834.kpop-mirek.pages.dev/"   # ← změň na aktuální URL z Cloudflare!
+
+enableRobotsTXT = true
+summaryLength = 0
+buildDrafts = false
+buildFuture = false
+enableEmoji = true
+
+[pagination]
+  pagerSize = 100
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# ==================== PARAMS ====================
 [params]
     colorScheme = "blowfish"
     defaultAppearance = "dark"
     showText = true
-    description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy."
-    # Tady natvrdo vypínáme ty problematické autory:
+    description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady."
+    
+    # Blowfish specifické
     article = { showAuthor = false, showAuthorsBadges = false, showAuthorBottom = false }
     customCursor = true
     mainSections = ["o-mne", "souteze", "foto", "video", "kontakt"]
     customCSS = ["css/custom.css"]
 
-[taxonomies]
-    tag = "tags"
-    category = "categories"
-
-[build]
-    writeStats = true
+    # Pokud chceš layout s obrázkem na pozadí
+    layout = "background"
