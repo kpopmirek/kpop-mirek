@@ -1,9 +1,16 @@
-/* === POSUN TEXTU DOLŮ A DOLEVA NA BACKGROUND LAYOUTU === */
+/* === SILNÝ POSUN TEXTU DOLŮ NA BACKGROUND LAYOUTU === */
 
-#main-content,
-.prose,
-article {
-    margin-top: 12rem !important;        /* hlavní posun dolů – uprav podle potřeby */
+.relative.flex.flex-col.grow {
+    padding-top: 22rem !important;     /* ← hlavní posun celého bloku dolů */
+    min-height: 100vh !important;
+    justify-content: flex-start !important;
+}
+
+/* Hlavní obsahový blok */
+#main-content.grow,
+#main-content {
+    margin-top: 0 !important;
+    padding-top: 4rem !important;
     max-width: 720px !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -11,29 +18,23 @@ article {
     padding-right: 2rem !important;
 }
 
-/* Extra posun pro celý hlavní kontejner v background layoutu */
-.relative.flex.flex-col.grow {
-    padding-top: 8rem !important;
-    justify-content: flex-start !important;
-}
-
-/* Posun textového bloku ještě více dolů */
-section.prose {
+/* Pro jistotu ještě další selektory */
+.prose,
+article.relative {
     margin-top: 6rem !important;
 }
 
-/* Nadpis a úvodní text */
+/* Nadpis */
 h1 {
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 1.8rem !important;
 }
 
-/* Logo pod textem */
-img[alt*="NEO"], .logo, .flex img {
-    margin-top: 2rem !important;
-    margin-bottom: 1rem !important;
+/* Instagram odkaz a logo */
+.flex.items-center.justify-center {
+    margin-top: 3rem !important;
 }
 
-/* Kurzor (ponechávám) */
+/* Kurzor */
 * {
     cursor: url('/images/liska.png') 16 24, auto !important;
 }
