@@ -35,7 +35,9 @@ enableEmoji = true
     article = { showAuthor = false, showAuthorsBadges = false, showAuthorBottom = false }
     customCursor = true
     mainSections = ["o-mne", "souteze", "foto", "video", "kontakt"]
-    customCSS = ["css/custom.css"]
+   
+   [params.assets]
+        customCSS = ["css/custom.css"]
 
     # Pokud chceš layout s obrázkem na pozadí
     layout = "background"
