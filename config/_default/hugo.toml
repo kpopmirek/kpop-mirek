@@ -10,6 +10,8 @@ title = "NEO HWARANG"
     description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy."
     # Tady natvrdo vypínáme ty problematické autory:
     article = { showAuthor = false, showAuthorsBadges = false, showAuthorBottom = false }
+    customCursor = true
+    mainSections = ["o-mne", "souteze", "foto", "video", "kontakt"]
 
 [taxonomies]
     tag = "tags"

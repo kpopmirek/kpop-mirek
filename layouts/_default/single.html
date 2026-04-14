@@ -1,12 +1,10 @@
 {{ define "main" }}
-  <article class="flex flex-col px-6 py-10 max-w-full">
-    <header>
-      <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        {{ .Title }}
-      </h1>
-    </header>
-    <section class="prose dark:prose-invert mt-8 max-w-full">
-      {{ .Content }}
-    </section>
-  </article>
+  {{ if .Params.layout | eq "background" }}
+    {{ partial "home/background.html" . }}
+  {{ else }}
+    <article class="max-w-prose mx-auto py-12 px-6">
+      <h1 class="text-4xl font-extrabold">{{ .Title }}</h1>
+      <div class="prose dark:prose-invert mt-8">{{ .Content }}</div>
+    </article>
+  {{ end }}
 {{ end }}
