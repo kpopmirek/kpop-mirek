@@ -3,7 +3,7 @@ defaultContentLanguage = "cs"
 title = "NEO HWARANG - tanec, soutěže a láska ke K-popu"
 description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady."
 
-baseURL = "https://tvuj-aktualni-link.kpop-mirek.pages.dev/"   # ← VEČER SEM NAPÍŠEŠ AKTUALNÍ URL Z CLOUDFLARE
+baseURL = "https://65e135f7.kpop-mirek.pages.dev/"   # ← VEČER SEM NAPÍŠEŠ AKTUALNÍ URL Z CLOUDFLARE
 
 enableRobotsTXT = true
 buildDrafts = false
