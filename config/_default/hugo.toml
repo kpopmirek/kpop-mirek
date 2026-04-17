@@ -3,10 +3,9 @@ defaultContentLanguage = "cs"
 title = "NEO HWARANG - tanec, soutěže a láska ke K-popu"
 description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady."
 
-baseURL = "https://kpop-mirek.pages.dev/"   # ← změň na aktuální URL z Cloudflare!
+baseURL = "https://tvuj-aktualni-link.kpop-mirek.pages.dev/"   # ← VEČER SEM NAPÍŠEŠ AKTUALNÍ URL Z CLOUDFLARE
 
 enableRobotsTXT = true
-summaryLength = 0
 buildDrafts = false
 buildFuture = false
 enableEmoji = true
@@ -24,20 +23,22 @@ enableEmoji = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-# ==================== PARAMS ====================
+# ==================== BLOWFISH PARAMS ====================
 [params]
     colorScheme = "blowfish"
     defaultAppearance = "dark"
     showText = true
     description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady."
-    
-    # Blowfish specifické
+
+    # Důležité pro background layout
+    [params.homepage]
+        layout = "background"
+
+    # Custom CSS - toto je klíčové
+    [params.assets]
+        customCSS = ["css/custom.css"]
+
+    # Další nastavení
     article = { showAuthor = false, showAuthorsBadges = false, showAuthorBottom = false }
     customCursor = true
     mainSections = ["o-mne", "souteze", "foto", "video", "kontakt"]
-   
-   [params.assets]
-        customCSS = ["css/custom.css"]
-
-    # Pokud chceš layout s obrázkem na pozadí
-    layout = "background"

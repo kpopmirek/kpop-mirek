@@ -1,40 +1,21 @@
-/* === SILNÝ POSUN TEXTU DOLŮ NA BACKGROUND LAYOUTU === */
+/* POSUN TEXTU DOLŮ - Blowfish background layout */
 
 .relative.flex.flex-col.grow {
-    padding-top: 22rem !important;     /* ← hlavní posun celého bloku dolů */
-    min-height: 100vh !important;
-    justify-content: flex-start !important;
+    padding-top: 26rem !important;
 }
 
-/* Hlavní obsahový blok */
-#main-content.grow,
 #main-content {
-    margin-top: 0 !important;
-    padding-top: 4rem !important;
+    margin-top: 6rem !important;
     max-width: 720px !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
 }
 
-/* Pro jistotu ještě další selektory */
-.prose,
-article.relative {
-    margin-top: 6rem !important;
+/* Další pojistka */
+.prose {
+    margin-top: 8rem !important;
 }
 
-/* Nadpis */
 h1 {
-    margin-bottom: 1.8rem !important;
-}
-
-/* Instagram odkaz a logo */
-.flex.items-center.justify-center {
-    margin-top: 3rem !important;
-}
-
-/* Kurzor */
-* {
-    cursor: url('/images/liska.png') 16 24, auto !important;
+    margin-bottom: 2.5rem !important;
 }

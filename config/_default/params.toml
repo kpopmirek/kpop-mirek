@@ -64,8 +64,14 @@ layout = "background"
   showHeader = true
   showRecent = false
 
-  
+
   heroSubtitle = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady. <br>Pokud chceš vidět více z mých tanečních coverů a jiných akcí, mrkni na Instagram."
+
+  # ==================== CUSTOM CSS ====================
+[params.assets]
+    customCSS = ["css/custom.css"]
+
+  
 [article]
   showDate = false
   showViews = false
